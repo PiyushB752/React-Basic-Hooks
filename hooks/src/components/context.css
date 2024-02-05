@@ -1,0 +1,9 @@
+div{
+    width: 1300px;
+    height: 350px;
+}
+.content{
+    top: 0px;
+    background-color: white;
+    color: black;
+}
