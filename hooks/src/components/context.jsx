@@ -17,6 +17,9 @@ function UseContext() {
     alert('Content Button Clicked');
     setShowPara((prevShowPara) => !prevShowPara);
   };
+  useEffect(()=>{
+    alert('Like Added!!!')
+  },[like])
   return (
     <div style={themeStyle}>
       <br />
